@@ -1,0 +1,208 @@
+
+body{
+
+    background-image: url("../../assets/images/pipes.png");
+    
+
+}
+
+#name{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    height: 49px;
+    
+}
+
+
+#profileImage{
+
+    transform: rotate(90deg);
+    margin-top: 20px;
+}
+
+#copyRight{
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    font-size: 5px;
+}
+
+#aboutMe{
+    background-color: white;
+    margin-top: 50px;
+    height: 300px;
+}
+
+#paragraph{
+    background-color: white;
+}
+
+#aboutMeTitle{
+    color: teal;
+    border-bottom: 2px solid #dddddd;
+}
+
+#portfolioTitle{
+    color: teal;
+    border-bottom: 2px solid #dddddd;
+}
+
+#contactTitle{
+    color: teal;
+    border-bottom: 2px solid #dddddd;
+}
+
+#top{
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+    height: 50px;
+}
+
+#copyRight{
+    margin-top: 150px;
+    height: 50px;
+    padding: 25px;
+    border-top: 5px solid teal;
+}
+
+#links{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.responsive{
+    width: auto;
+    height: 150px;
+}
+
+/* portfolio */
+
+
+#hangman{
+    float: left;
+    position: absolute;
+    z-index:1;
+}
+
+#wordHangman{
+    position: absolute;
+    z-index:2;
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height:40px;
+    text-align: center;
+    padding: 5px;
+    margin-top:80px;
+}
+
+#rpgGame{
+    position: absolute;
+    z-index:1;
+    float: left;
+    margin-left: 175px;
+    
+}
+
+#wordRpgGame{
+    position: absolute;
+    z-index:2;
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height:40px;
+    text-align: center;
+    padding: 5px;
+    margin-top:80px;
+    margin-left: 175px;
+}
+
+#triviaGame{
+    position: absolute;
+    z-index:1;
+    float: left;
+    margin-top:175px;
+}
+
+#wordTriviaGame{
+    position: absolute;
+    z-index:2;
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height:40px;
+    text-align: center;
+    padding: 5px;
+    margin-top:255px;
+}
+
+#rutgersInfoWidget{
+
+    position: absolute;
+    z-index: 1;
+    
+}
+
+#wordRutgers{
+    position: absolute;
+    z-index:2;
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height:40px;
+    text-align: center;
+    padding: 5px;
+    margin-top:100px;
+    margin-left: 175px;
+}
+
+#rock{
+    float: left;
+    position: absolute;
+    margin-top: 350px;
+    z-index:1;
+}
+
+#wordRock{
+    position: absolute;
+    z-index:2;
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height:40px;
+    text-align: center;
+    padding: 5px;
+    margin-top:250px;
+    
+}
+
+/*contact*/
+
+label{
+    color:grey;
+}
+
+input{
+    color: lightgrey;
+    width: 100%;
+}
+
+textarea{
+    color: lightgrey;
+    width: 100%;
+    height: 200px;
+}
+
+#contactMiddle{
+    background-color: white;
+    margin-top: 50px;
+    height: 475px;
+}
+
+#submit{
+    width:100px;
+    height:40px;
+    background-color:teal;
+    color: white;
+}
